@@ -1,0 +1,35 @@
+
+html, body
+{
+  height: 100%;
+}
+body{
+	background-image: url("../images/theoffice.jpg");
+	font-family: 'Special Elite', cursive;
+}
+.container{
+	background-size: cover;
+	height: 100%;
+}
+
+.jumbotron {
+    width: 100%;
+}
+
+header {
+    padding: 10px;
+    margin: 10px;
+    float: initial;
+}
+
+
+h3, h4{
+ background-color: aliceblue;
+ text-align: center;
+}
+
+#wrong-guess, #guesses-left, #win-counter, #loss-counter {
+    background-color: aliceblue;
+    padding: 1px;
+    font-size: 24px;
+}
